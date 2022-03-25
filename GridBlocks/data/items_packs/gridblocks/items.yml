@@ -1,0 +1,134 @@
+info:
+  namespace: gridblocks
+items:
+  category_all:
+    display_name: "Grid Blocks &7[&bAll&7]"
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - grids_animated.png
+  #
+  # Blue Grid Items
+  #
+  blue_grid_item:
+    display_name: "Blue Grid"
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - grids/blue/grid.png
+  blue_grid_scale_center_item:
+    display_name: "Blue Grid Scale Center"
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - grids/blue/grid_scale_center.png
+  blue_grid_scale_horizontal_item:
+    display_name: "Blue Grid Scale Horizontal"
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - grids/blue/grid_scale_horizontal.png
+  blue_grid_scale_vertical_item:
+    display_name: "Blue Grid"
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - grids/blue/grid_scale_vertical.png
+  #
+  # Green Grid Items
+  #
+  green_grid_item:
+    display_name: "Green Grid"
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - grids/green/grid.png
+  green_grid_scale_center_item:
+    display_name: "Green Grid Scale Center"
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - grids/green/grid_scale_center.png
+  green_grid_scale_horizontal_item:
+    display_name: "Green Grid Scale Horizontal"
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - grids/green/grid_scale_horizontal.png
+  green_grid_scale_vertical_item:
+    display_name: "Green Grid"
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - grids/green/grid_scale_vertical.png
+  #
+  # Red Grid Items
+  #
+  red_grid_item:
+    display_name: "Red Grid"
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - grids/red/grid.png
+  red_grid_scale_center_item:
+    display_name: "Red Grid Scale Center"
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - grids/red/grid_scale_center.png
+  red_grid_scale_horizontal_item:
+    display_name: "Red Grid Scale Horizontal"
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - grids/red/grid_scale_horizontal.png
+  red_grid_scale_vertical_item:
+    display_name: "Red Grid"
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - grids/red/grid_scale_vertical.png
+  #
+  # Black Grid Items
+  #
+  black_grid_item:
+    display_name: "Black Grid"
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - grids/black/grid.png
+  black_grid_scale_center_item:
+    display_name: "Black Grid Scale Center"
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - grids/black/grid_scale_center.png
+  black_grid_scale_horizontal_item:
+    display_name: "Black Grid Scale Horizontal"
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - grids/black/grid_scale_horizontal.png
+  black_grid_scale_vertical_item:
+    display_name: "Black Grid"
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - grids/black/grid_scale_vertical.png

@@ -1,0 +1,153 @@
+info:
+  namespace: gridblocks
+categories:
+  gridblocks_all:
+    enabled: true
+    icon: "gridblocks:category_all"
+    name: "Blueprint Blocks &7[&bAll&7]"
+    permission: "ia.menu.gridblocks.all"
+    items:
+    - "gridblocks:blue_grid"
+    - "gridblocks:blue_grid_scale_center"
+    - "gridblocks:blue_grid_scale_horizontal_east_west"
+    - "gridblocks:blue_grid_scale_horizontal_north_south"
+    - "gridblocks:blue_grid_scale_vertical"
+    - "gridblocks:green_grid"
+    - "gridblocks:green_grid_scale_center"
+    - "gridblocks:green_grid_scale_horizontal_east_west"
+    - "gridblocks:green_grid_scale_horizontal_north_south"
+    - "gridblocks:green_grid_scale_vertical"
+    - "gridblocks:red_grid"
+    - "gridblocks:red_grid_scale_center"
+    - "gridblocks:red_grid_scale_horizontal_east_west"
+    - "gridblocks:red_grid_scale_horizontal_north_south"
+    - "gridblocks:red_grid_scale_vertical"
+    - "gridblocks:black_grid"
+    - "gridblocks:black_grid_scale_center"
+    - "gridblocks:black_grid_scale_horizontal_east_west"
+    - "gridblocks:black_grid_scale_horizontal_north_south"
+    - "gridblocks:black_grid_scale_vertical"
+    - "gridblocks:blue_grid_item"
+    - "gridblocks:blue_grid_scale_center_item"
+    - "gridblocks:blue_grid_scale_horizontal_item"
+    - "gridblocks:blue_grid_scale_vertical_item"
+    - "gridblocks:green_grid_item"
+    - "gridblocks:green_grid_scale_center_item"
+    - "gridblocks:green_grid_scale_horizontal_item"
+    - "gridblocks:green_grid_scale_vertical_item"
+    - "gridblocks:red_grid_item"
+    - "gridblocks:red_grid_scale_center_item"
+    - "gridblocks:red_grid_scale_horizontal_item"
+    - "gridblocks:red_grid_scale_vertical_item"
+    - "gridblocks:black_grid_item"
+    - "gridblocks:black_grid_scale_center_item"
+    - "gridblocks:black_grid_scale_horizontal_item"
+    - "gridblocks:black_grid_scale_vertical_item"
+  #
+  # All blue grid blocks
+  #
+  gridblocks_blocks_blue:
+    enabled: true
+    icon: "gridblocks:blue_grid"
+    name: "Grid Blocks &7[&bBlue&7]"
+    permission: "ia.menu.gridblocks.blocks.blue"
+    items:
+    - "gridblocks:blue_grid"
+    - "gridblocks:blue_grid_scale_center"
+    - "gridblocks:blue_grid_scale_horizontal_east_west"
+    - "gridblocks:blue_grid_scale_horizontal_north_south"
+    - "gridblocks:blue_grid_scale_vertical"
+  #
+  # All green grid blocks
+  #
+  gridblocks_blocks_green:
+    enabled: true
+    icon: "gridblocks:green_grid"
+    name: "Grid Blocks &7[&bGreen&7]"
+    permission: "ia.menu.gridblocks.blocks.green"
+    items:
+    - "gridblocks:green_grid"
+    - "gridblocks:green_grid_scale_center"
+    - "gridblocks:green_grid_scale_horizontal_east_west"
+    - "gridblocks:green_grid_scale_horizontal_north_south"
+    - "gridblocks:green_grid_scale_vertical"
+  #
+  # All red grid blocks
+  #
+  gridblocks_blocks_red:
+    enabled: true
+    icon: "gridblocks:red_grid"
+    name: "Grid Blocks &7[&bRed&7]"
+    permission: "ia.menu.gridblocks.blocks.red"
+    items:
+    - "gridblocks:red_grid"
+    - "gridblocks:red_grid_scale_center"
+    - "gridblocks:red_grid_scale_horizontal_east_west"
+    - "gridblocks:red_grid_scale_horizontal_north_south"
+    - "gridblocks:red_grid_scale_vertical"
+  #
+  # All black grid blocks
+  #
+  gridblocks_blocks_black:
+    enabled: true
+    icon: "gridblocks:black_grid"
+    name: "Grid Blocks &7[&bBlack&7]"
+    permission: "ia.menu.gridblocks.blocks.black"
+    items:
+    - "gridblocks:black_grid"
+    - "gridblocks:black_grid_scale_center"
+    - "gridblocks:black_grid_scale_horizontal_east_west"
+    - "gridblocks:black_grid_scale_horizontal_north_south"
+    - "gridblocks:black_grid_scale_vertical"
+  #
+  # All blue grid items
+  #
+  gridblocks_items_blue:
+    enabled: true
+    icon: "gridblocks:blue_grid_item"
+    name: "Grid Items &7[&bBlue&7]"
+    permission: "ia.menu.gridblocks.items.blue"
+    items:
+    - "gridblocks:blue_grid_item"
+    - "gridblocks:blue_grid_scale_center_item"
+    - "gridblocks:blue_grid_scale_horizontal_item"
+    - "gridblocks:blue_grid_scale_vertical_item"
+  #
+  # All green grid items
+  #
+  gridblocks_items_green:
+    enabled: true
+    icon: "gridblocks:green_grid_item"
+    name: "Grid Items &7[&bGreen&7]"
+    permission: "ia.menu.gridblocks.items.green"
+    items:
+    - "gridblocks:green_grid_item"
+    - "gridblocks:green_grid_scale_center_item"
+    - "gridblocks:green_grid_scale_horizontal_item"
+    - "gridblocks:green_grid_scale_vertical_item"
+  #
+  # All red grid items
+  #
+  gridblocks_items_red:
+    enabled: true
+    icon: "gridblocks:red_grid_item"
+    name: "Grid Items &7[&bRed&7]"
+    permission: "ia.menu.gridblocks.items.red"
+    items:
+    - "gridblocks:red_grid_item"
+    - "gridblocks:red_grid_scale_center_item"
+    - "gridblocks:red_grid_scale_horizontal_item"
+    - "gridblocks:red_grid_scale_vertical_item"
+  #
+  # All black grid items
+  #
+  gridblocks_items_black:
+    enabled: true
+    icon: "gridblocks:black_grid_item"
+    name: "Grid Items &7[&bBlack&7]"
+    permission: "ia.menu.gridblocks.items.black"
+    items:
+    - "gridblocks:black_grid_item"
+    - "gridblocks:black_grid_scale_center_item"
+    - "gridblocks:black_grid_scale_horizontal_item"
+    - "gridblocks:black_grid_scale_vertical_item"

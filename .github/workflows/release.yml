@@ -16,10 +16,10 @@ jobs:
       with:
         ref: main
     - name: Zip files
-      working-directory: './UtilityBlocks'
-      run: 'zip -r UtilityBlocks-${{ github.event.release.tag_name }}.zip data/'
+      working-directory: './GridBlocks'
+      run: 'zip -r GridBlocks-${{ github.event.release.tag_name }}.zip data/'
     - name: Upload zip to release
       uses: AButler/upload-release-assets@v2.0
       with:
-        files: 'UtilityBlocks/UtilityBlocks-${{ github.event.release.tag_name }}.zip'
+        files: 'GridBlocks/GridBlocks-${{ github.event.release.tag_name }}.zip'
         repo-token: '${{ secrets.GITHUB_TOKEN }}'

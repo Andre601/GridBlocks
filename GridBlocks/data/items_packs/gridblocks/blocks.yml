@@ -1,0 +1,267 @@
+info:
+  namespace: gridblocks
+items:
+  #
+  # Blue Grid Blocks
+  #
+  blue_grid:
+    display_name: "Blue Grid Block"
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - grids/blue/grid.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+  blue_grid_scale_horizontal_east_west:
+    display_name: "Blue horizontal Scale Block"
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - grids/blue/grid_scale_horizontal.png
+      - grids/blue/grid_scale_center.png
+      - grids/blue/grid_scale_horizontal.png
+      - grids/blue/grid_scale_horizontal.png
+      - grids/blue/grid_scale_horizontal.png
+      - grids/blue/grid_scale_center.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+  blue_grid_scale_horizontal_north_south:
+    display_name: "Blue horizontal Scale Block"
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - grids/blue/grid_scale_vertical.png
+      - grids/blue/grid_scale_horizontal.png
+      - grids/blue/grid_scale_center.png
+      - grids/blue/grid_scale_center.png
+      - grids/blue/grid_scale_vertical.png
+      - grids/blue/grid_scale_horizontal.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+  blue_grid_scale_vertical:
+    display_name: "Blue vertical Scale Block"
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - grids/blue/grid_scale_center.png
+      - grids/blue/grid_scale_vertical.png
+      - grids/blue/grid_scale_vertical.png
+      - grids/blue/grid_scale_vertical.png
+      - grids/blue/grid_scale_center.png
+      - grids/blue/grid_scale_vertical.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+  #
+  # Green Grid Blocks
+  #
+  green_grid:
+    display_name: "Green Grid Block"
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - grids/green/grid.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+  green_grid_scale_horizontal_east_west:
+    display_name: "Green horizontal Scale Block"
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - grids/green/grid_scale_horizontal.png
+      - grids/green/grid_scale_center.png
+      - grids/green/grid_scale_horizontal.png
+      - grids/green/grid_scale_horizontal.png
+      - grids/green/grid_scale_horizontal.png
+      - grids/green/grid_scale_center.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+  green_grid_scale_horizontal_north_south:
+    display_name: "Green horizontal Scale Block"
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - grids/green/grid_scale_vertical.png
+      - grids/green/grid_scale_horizontal.png
+      - grids/green/grid_scale_center.png
+      - grids/green/grid_scale_center.png
+      - grids/green/grid_scale_vertical.png
+      - grids/green/grid_scale_horizontal.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+  green_grid_scale_vertical:
+    display_name: "Green vertical Scale Block"
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - grids/green/grid_scale_center.png
+      - grids/green/grid_scale_vertical.png
+      - grids/green/grid_scale_vertical.png
+      - grids/green/grid_scale_vertical.png
+      - grids/green/grid_scale_center.png
+      - grids/green/grid_scale_vertical.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+  #
+  # Red Grid Blocks
+  #
+  red_grid:
+    display_name: "Red Grid Block"
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - grids/red/grid.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+  red_grid_scale_horizontal_east_west:
+    display_name: "Red horizontal Scale Block"
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - grids/red/grid_scale_horizontal.png
+      - grids/red/grid_scale_center.png
+      - grids/red/grid_scale_horizontal.png
+      - grids/red/grid_scale_horizontal.png
+      - grids/red/grid_scale_horizontal.png
+      - grids/red/grid_scale_center.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+  red_grid_scale_horizontal_north_south:
+    display_name: "Red horizontal Scale Block"
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - grids/red/grid_scale_vertical.png
+      - grids/red/grid_scale_horizontal.png
+      - grids/red/grid_scale_center.png
+      - grids/red/grid_scale_center.png
+      - grids/red/grid_scale_vertical.png
+      - grids/red/grid_scale_horizontal.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+  red_grid_scale_vertical:
+    display_name: "Red vertical Scale Block"
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - grids/red/grid_scale_center.png
+      - grids/red/grid_scale_vertical.png
+      - grids/red/grid_scale_vertical.png
+      - grids/red/grid_scale_vertical.png
+      - grids/red/grid_scale_center.png
+      - grids/red/grid_scale_vertical.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+  #
+  # Black Grid Blocks
+  #
+  black_grid:
+    display_name: "Black Grid Block"
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - grids/black/grid.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+  black_grid_scale_horizontal_east_west:
+    display_name: "Red horizontal Scale Block"
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - grids/black/grid_scale_horizontal.png
+      - grids/black/grid_scale_center.png
+      - grids/black/grid_scale_horizontal.png
+      - grids/black/grid_scale_horizontal.png
+      - grids/black/grid_scale_horizontal.png
+      - grids/black/grid_scale_center.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+  black_grid_scale_horizontal_north_south:
+    display_name: "Red horizontal Scale Block"
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - grids/black/grid_scale_vertical.png
+      - grids/black/grid_scale_horizontal.png
+      - grids/black/grid_scale_center.png
+      - grids/black/grid_scale_center.png
+      - grids/black/grid_scale_vertical.png
+      - grids/black/grid_scale_horizontal.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+  black_grid_scale_vertical:
+    display_name: "Black vertical Scale Block"
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - grids/black/grid_scale_center.png
+      - grids/black/grid_scale_vertical.png
+      - grids/black/grid_scale_vertical.png
+      - grids/black/grid_scale_vertical.png
+      - grids/black/grid_scale_center.png
+      - grids/black/grid_scale_vertical.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
