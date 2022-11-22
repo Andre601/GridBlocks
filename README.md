@@ -5,13 +5,23 @@
 GridBlocks is an ItemsAdder Add-on that implements blueprint-like looking blocks.  
 The focus is to offer creators of add-ons and/or resource packs a way to see their creation at scale with some blocks. Think of it like the Placeholder Development Assets but for Minecraft.
 
-## Download
+## How to use
 
-- Download the `GridBlocks-<version>.zip` file from the latest release in the [Releases Tab][releases].
-- Extract the `data` folder from the Zip.
-- Upload the `data` folder to `/plugins/ItemsAdder/` on your server.
-- Run `/iazip` to refresh the resource pack.
-  - Remember to update the download URL if you're not using `self-host` or `auto-external-host`
+### Version 3.2.5 and older
+
+1. Download the `GridBlocks-<version>-old.zip` file from the [latest release][releases] on this Repository.
+2. Open the Zip using either WinRAR or 7Zip.
+3. Extract and move `data` into `/plugins/ItemsAdder/`.
+4. Re-zip the resource pack using `/iazip`
+    - Depending on your hosting solution will you need to update the download URL for the resource pack.
+
+### Version 3.3.0 and newer
+
+1. Download the `GridBlocks-<version>-new.zip` file from the [latest release][releases] on this Repository.
+2. Open the Zip using either WinRAR or 7Zip.
+3. Extract and move `gridblocks/` into `/plugins/ItemsAdder/contents/`.
+4. Re-zip the resource pack using `/iazip`
+    - Depending on your hosting solution will you need to update the download URL for the resource pack.
 
 ## License
 
