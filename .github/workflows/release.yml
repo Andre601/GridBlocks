@@ -17,10 +17,10 @@ jobs:
         ref: main
     - name: Zip old files
       working-directory: './GridBlocks/itemsadder-old'
-      run: zip -r GridBlocks-${{ github.event.release.tag_name }}-old.zip data/'
+      run: 'zip -r GridBlocks-${{ github.event.release.tag_name }}-old.zip data/'
     - name: Zip new files
       working-directory: './GridBlocks/itemsadder-new'
-      run: zip -r GridBlocks-${{ github.event.release.tag_name }}-new.zip gridblocks/
+      run: 'zip -r GridBlocks-${{ github.event.release.tag_name }}-new.zip gridblocks/'
     - name: Upload zip to release
       uses: AButler/upload-release-assets@v2.0
       with:
