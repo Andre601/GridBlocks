@@ -39,5 +39,7 @@ I do allow you to use the textures in your own projects, but please give credit 
 
 [releases]: https://github.com/Andre601/GridBlocks/releases/latest
 
+[license]: https://github.com/Andre601/GridBlocks/blob/main/LICENSE
+
 [preview_1]: https://raw.githubusercontent.com/Andre601/GridBlocks/main/.github/assets/preview_1.png
 [preview_2]: https://raw.githubusercontent.com/Andre601/GridBlocks/main/.github/assets/preview_2.png
